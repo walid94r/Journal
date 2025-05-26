@@ -1,0 +1,90 @@
+{
+  "journal": {
+    "nomJournal": "Auto Horizon",
+    "phraseAccroche": "Explorez l’avenir de la mobilité automobile",
+    "texteAppelAction": "Abonnez-vous pour suivre l’actualité auto, des essais aux innovations",
+    
+    "articlePrincipal": {
+      "titre": "Électriques, hybrides, thermiques : quelles voitures domineront 2025 ?",
+      "description": "Entre transition écologique et plaisir de conduite, les choix des constructeurs se diversifient. Tour d’horizon.",
+      "date": "20 Mai 2025",
+      "theme": "Tendances",
+      "image": "https://cdn.pixabay.com/photo/2015/01/19/13/51/tesla-604847_1280.jpg"
+    },
+    "articles": [
+      {
+        "titre": "Comparatif 2025 : les meilleures voitures électriques du marché",
+        "date": "10 Mai 2025",
+        "theme": "Essais & comparatifs",
+        "image": "https://assets.volkswagen.com/is/image/volkswagenag/ID_Range_VW2296?Zml0PWNyb3AlMkMxJndpZD0xMjgwJmhlaT03MjAmZm10PWpwZWcmcWx0PTc5JmJmYz1vZmYmMmI5ZQ=="
+      },
+      {
+        "titre": "Conduite autonome : où en est-on vraiment ?",
+        "date": "28 Avril 2025",
+        "theme": "Technologie & innovation",
+        "image": "https://images.caradisiac.com/images/1/4/3/5/201435/S0-enquete-quelle-voiture-autonome-conduirons-nous-demain-749805.jpg"
+      },
+      {
+        "titre": "Voitures thermiques : bientôt la fin ?",
+        "date": "15 Avril 2025",
+        "theme": "Écologie & transition",
+        "image": "https://i.ytimg.com/vi/XIcbWgd3sRE/maxresdefault.jpg"
+      },
+      {
+        "titre": "Sécurité automobile : les systèmes les plus efficaces de 2025",
+        "date": "1er Avril 2025",
+        "theme": "Sécurité",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLrG_qVrCcVIEPw3olz-M_PRrKuJwgSzRzpw&s"
+      },
+      {
+        "titre": "Les jeunes conducteurs et la voiture : entre rêve et budget",
+        "date": "20 Mars 2025",
+        "theme": "Mobilité & société",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmez6e-joLzBg0qoiNoCUaQZxl-hJeUvmKw&s"
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Tendances",
+        "description": "Les évolutions du marché automobile et les choix des constructeurs."
+      },
+      {
+        "nom": "Essais & comparatifs",
+        "description": "Des tests détaillés pour mieux choisir votre prochain véhicule."
+      },
+      {
+        "nom": "Technologie & innovation",
+        "description": "Voitures connectées, conduite autonome, gadgets embarqués."
+      },
+      {
+        "nom": "Écologie & transition",
+        "description": "Les enjeux écologiques et la transition énergétique du secteur auto."
+      },
+      {
+        "nom": "Sécurité",
+        "description": "Les équipements et normes pour protéger conducteurs et passagers."
+      },
+      {
+        "nom": "Mobilité & société",
+        "description": "Les habitudes de déplacement et l’évolution des usages de l’automobile."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Claire",
+        "typeExperience": "Journaliste auto",
+        "presentation": "Je teste chaque mois les nouveaux modèles pour vous livrer mes analyses terrain."
+      },
+      {
+        "prenom": "Thomas",
+        "typeExperience": "Ingénieur automobile",
+        "presentation": "Je travaille sur les innovations technologiques embarquées dans les véhicules."
+      },
+      {
+        "prenom": "Elena",
+        "typeExperience": "Spécialiste mobilité durable",
+        "presentation": "Je m’intéresse à la place de la voiture dans la transition écologique et sociétale."
+      }
+    ]
+  }
+}
