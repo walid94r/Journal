@@ -112,6 +112,9 @@ voitureContainer.appendChild(voitureCard);
 
       let  articles = data.journal.articles
        
+      let autoContainer = document.getElementById(`auto-container`)
+      console.log(autoContainer);
+      
 
    articles.forEach( article => {
 
@@ -157,6 +160,9 @@ voitureContainer.appendChild(voitureCard);
    automobileCard.appendChild(pImage)
 
    automobileContainer.appendChild(automobileCard) 
+
+   
+autoContainer.appendChild(automobileCard)
   
 
 });
