@@ -107,8 +107,6 @@ function getData() {
    pImage.alt = pTitre; 
    
      
-   
-   
       
 
 
@@ -121,7 +119,7 @@ function getData() {
    
    automobileCard.appendChild(pImage)
 
-        automobileContainer.appendChild(automobileCard) 
+   automobileContainer.appendChild(automobileCard) 
   
 
 });
@@ -139,7 +137,6 @@ themes.forEach(theme => {
   
 
 let voitureCard = document.createElement(`div`);
-
 
 
 
