@@ -73,6 +73,43 @@ function getData() {
    
        
 
+
+   
+let themes = data.journal.themes
+console.log(themes);
+
+let voitureContainer = document.getElementById(`voiture-container`);
+console.log(voitureContainer);
+
+
+
+
+themes.forEach(theme => {
+  
+
+let voitureCard = document.createElement(`div`);
+
+
+
+let pnom = document.createElement(`h3`);
+
+pDescription = document.createElement(`p3`);
+
+
+pnom.textContent = theme.nom;
+
+pDescription.textContent = theme.description;
+
+
+voitureCard.appendChild(pnom);
+
+voitureCard.appendChild(pDescription);
+
+voitureContainer.appendChild(voitureCard);
+
+});
+
+
       let  articles = data.journal.articles
        
 
@@ -124,40 +161,6 @@ function getData() {
 
 });
 
-let themes = data.journal.themes
-console.log(themes);
-
-let voitureContainer = document.getElementById(`voiture-container`);
-console.log(voitureContainer);
-
-
-
-
-themes.forEach(theme => {
-  
-
-let voitureCard = document.createElement(`div`);
-
-
-
-let pnom = document.createElement(`h3`);
-
-pDescription = document.createElement(`p3`);
-
-
-pnom.textContent = theme.nom;
-
-pDescription.textContent = theme.description;
-
-
-voitureCard.appendChild(pnom);
-
-voitureCard.appendChild(pDescription);
-
-voitureContainer.appendChild(voitureCard);
-
-});
-
 
 
 
@@ -171,7 +174,6 @@ console.log(auteurContainer);
 
 auteurs.forEach(auteur => {
   
-
 
 
 
@@ -209,7 +211,6 @@ auteurContainer.appendChild(auteurCard);
 
 
 });
-
 
 
        /// FIN DU CODE
